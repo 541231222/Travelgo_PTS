@@ -1,0 +1,216 @@
+body {
+    background-color: #202020;
+    margin: 0; /* Menghilangkan margin default pada body */
+    width: 100vw; /* Lebar viewport */
+    height: 100vh; /* Tinggi viewport */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.navbar {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.1); /* Faded white color */
+    padding: 10px;
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically center items */
+    border-bottom: 1px solid #ccc; /* Add a subtle border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    width: 100%; /* Make the navbar full-width */
+    overflow: hidden;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.2s ease; /* Add a smooth transition effect */
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.navbar a:hover {
+    color: #666; /* Change the link color on hover */
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar a.active {
+    color: #444; /* Change the active link color */
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.navbar .logo {
+    font-family: Lalezar;
+    margin-left: 15px;
+    padding-left: 70px;
+    font-size: 35px;
+    color: #30C641;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar .nav-links {
+    padding-right: 70px;
+    display: flex; /* Use flexbox to align links */
+    justify-content: flex-end; /* Align links to the right */
+    margin-right: 20px; /* Add some space to the right */
+    font-size: 20px;
+}
+
+.navbar .nav-links a:last-child {
+    background-color: #30C641; /* Green background color */
+    padding: 10px 20px; /* Add some padding to create a pill shape */
+    border-radius: 20px; /* Add a border radius to create a pill shape */
+    color: #000; /* White text color */
+    padding-top: 10px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbwh img {
+    align-items: center;
+    margin-top: 350px;
+    margin-left: 530px;
+
+}
+
+.map img {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.kata {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.2s ease; /* Add a smooth transition effect */
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1000px;
+    margin-top: -250px;
+}
+
+.section-hijau {
+    padding: 5rem;
+    background-color: #30C641;
+}
+
+.section-putih {
+    justify-content: center;
+    text-align: center;
+    font-family: "Lalezar", system-ui;
+    background-color: #ffffff;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.section-putih .border {
+    border-top: 8px solid #000000;
+    position: relative;
+    width: 100rem;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.section-putih .kotak1 {
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.section-putih .kotak2 {
+    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.section-putih .kotak3 {
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.footer-section {
+    background-color: #373737;
+    padding: 100px;
+    bottom: 0px;
+}
+
+.footer-section h1 {
+    font-family: "Lalezar";
+    color: #30C641;
+    font-size: 48px;
+    margin-top: -50px;
+}
+
+.footer-section a {
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.footer-section .line1 {
+    padding-right: 90px;
+}
+
+.footer-section .line2 {
+    padding-right: 76px;
+}
+
+.footer-section .email-btn {
+    background-color: #D9D9D9;
+    padding: 5px 5px;
+    border-radius: 20px; /* Add a border radius to create a pill shape */
+    width: 20rem;
+    text-align: center;
+}
+
+.imgfooter img {
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: -175px;
+}
+
+.imgfooter h2 {
+    font-family: "Poppins";
+    position: absolute;
+    margin-left: 37rem;
+    margin-top: 35px;
+    color: #D9D9D9;
+}
+
+.contactfooter h2 {
+    font-family: "Poppins";
+    position: absolute;
+    right: 200px;
+    color: #D9D9D9;
+    margin-top: -125px;
+}
+
+.contactfooter img {
+    position: absolute;
+    right: 235px;
+    margin-top: -70px;
+}
+
+.kotak1 img:hover {
+    transform: scale(1.05);
+}
+
+.kotak2 img:hover {
+    transform: scale(1.05);
+}
+
+.kotak3 img:hover {
+    transform: scale(1.05);
+}

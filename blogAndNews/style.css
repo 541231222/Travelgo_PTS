@@ -1,0 +1,229 @@
+body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: "Poppins";
+    overflow-y: scroll;
+    width: 100vw; /* Lebar viewport */
+    height: 100vh; /* Tinggi viewport */
+    margin: 0; /* Menghilangkan margin default pada body */
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.1); /* Faded white color */
+    padding: 10px;
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Vertically center items */
+    border-bottom: 1px solid #ccc; /* Add a subtle border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    width: 100%; /* Make the navbar full-width */
+    overflow: hidden;
+    transition: background-color 0.2s ease; /* add a smooth transition effect */
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.2s ease; /* Add a smooth transition effect */
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.navbar a:hover {
+    color: #666; /* Change the link color on hover */
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar a.active {
+    color: #444; /* Change the active link color */
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.navbar .logo {
+    font-family: Lalezar;
+    margin-left: 15px;
+    padding-left: 70px;
+    font-size: 35px;
+    color: #30C641;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar .nav-links {
+    padding-right: 70px;
+    display: flex; /* Use flexbox to align links */
+    justify-content: flex-end; /* Align links to the right */
+    margin-right: 20px; /* Add some space to the right */
+    font-size: 20px;
+}
+
+.navbar .nav-links a:last-child {
+    background-color: #30C641; /* Green background color */
+    padding: 10px 20px; /* Add some padding to create a pill shape */
+    border-radius: 20px; /* Add a border radius to create a pill shape */
+    color: #000; /* White text color */
+    padding-top: 10px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page-menu .menu {
+    background-color: #30C641;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 150px;
+    width: 395px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.page-menu a {
+    color: #000;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.page-heading {
+    font-family: "Poppins";
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 150px;
+    padding-top: 130px;
+}
+
+.border-page {
+    border-top: 8px solid #000000;
+    position: relative;
+    width: 100rem;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.news-image {
+    margin-left: 147px;
+    margin-top: 30px;
+}
+
+.news1-text {
+    margin-left: 64rem;
+    margin-top: -500px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.news2-text {
+    display: flex;
+    gap: 11rem;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 17.5px;
+}
+
+.page-heading2 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+.border-page2 {
+    border-top: 8px solid #000000;
+    position: relative;
+    width: 100rem;
+    margin-left: 150px;
+}
+
+.news-foto img {
+    margin-left: 150px;
+    margin-top: 80px;
+    width: 50rem;
+    position: static;
+    margin-right: 30px;
+}
+
+.news-foto figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.footer-section {
+    background-color: #373737;
+    padding: 100px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-section h1 {
+    font-family: "Lalezar";
+    color: #30C641;
+    font-size: 48px;
+    margin-top: -50px;
+}
+
+.footer-section a {
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.footer-section .line1 {
+    padding-right: 90px;
+}
+
+.footer-section .line2 {
+    padding-right: 76px;
+}
+
+.footer-section .email-btn {
+    background-color: #D9D9D9;
+    padding: 5px 5px;
+    border-radius: 20px; /* Add a border radius to create a pill shape */
+    width: 20rem;
+    text-align: center;
+}
+
+.imgfooter img {
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: -175px;
+}
+
+.imgfooter h2 {
+    font-family: "Poppins";
+    position: absolute;
+    margin-left: 37rem;
+    margin-top: 35px;
+    color: #D9D9D9;
+}
+
+.contactfooter h2 {
+    font-family: "Poppins";
+    position: absolute;
+    right: 200px;
+    color: #D9D9D9;
+    margin-top: -125px;
+}
+
+.contactfooter img {
+    position: absolute;
+    right: 235px;
+    margin-top: -70px;
+}
