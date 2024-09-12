@@ -13,7 +13,7 @@
         </style>
     <link rel="stylesheet" href="style.css">
     <!-- membuat navbar -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <a href="" class="logo">TravelGo</a>
         <div class="nav-links">
             <nav class="navbars">
@@ -66,30 +66,46 @@
     </div>
     <h1 class="page-heading2">All</h1>
     <h1 class="border-page2"></h1>
+    <div class="img-all">
+        <img src="/IMG/news1.png" alt="" width="750px">
+        <img src="/IMG/pengendara.png" alt="" width="750px">
+      </div>
+    <img src="/IMG/img all.png" alt="" style="margin-left: 150px;  margin-top: 100px; padding-bottom: 300px;" width="1600px">
+    <footer>
+        <section class="footer-section">
+            <h1>Travelgo</h1>
+            <a href="/landingPage/index.html" class="line1">Home</a>
+            <a href="" class="line1">Blog & News</a><br>
+            <a href="" class="line2">Join Us</a>
+            <a href="" class="line2">Product</a>
+            <div class="email-btn">
+              <a href="" style="color: #000;">Send your email</a>
+            </div>
+            <div class="imgfooter">
+              <img src="/IMG/garisfooter.png" alt="">
+              <h2>TravelGo | 2024 All Rights Reserved</h2>
+          </div>
+          <div class="contactfooter">
+            <h2>Follow and keep updated!</h2>
+            <img src="/IMG/contact.png" alt="">
+          </div>
+    
+          <div class="menu">
+            <a href=""></a>
+          </div>
+          </section>
+    </footer>
+    <script>
+        const navbar = document.getElementById('navbar');
+    
+        window.onscroll = () => {
+            if (window.pageYOffset > 600){
+                navbar.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+            }
+        }
+    </script>
 </body>
-<footer>
-    <section class="footer-section">
-        <h1>Travelgo</h1>
-        <a href="/landingPage/index.html" class="line1">Home</a>
-        <a href="" class="line1">Blog & News</a><br>
-        <a href="" class="line2">Join Us</a>
-        <a href="" class="line2">Product</a>
-        <div class="email-btn">
-          <a href="" style="color: #000;">Send your email</a>
-        </div>
-        <div class="imgfooter">
-          <img src="/IMG/garisfooter.png" alt="">
-          <h2>TravelGo | 2024 All Rights Reserved</h2>
-      </div>
-      <div class="contactfooter">
-        <h2>Follow and keep updated!</h2>
-        <img src="/IMG/contact.png" alt="">
-      </div>
 
-      <div class="menu">
-        <a href=""></a>
-      </div>
-
-      </section>
-</footer>
 </html>
