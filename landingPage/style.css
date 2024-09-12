@@ -17,6 +17,21 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
     width: 100%; /* Make the navbar full-width */
     overflow: hidden;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for background-color and box-shadow */
+}
+
+.navbar.scrolled {
+    background-color: #373737;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slightly more shadow when scrolled */
+}
+
+@keyframes drop-down {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 
 .navbar a {
