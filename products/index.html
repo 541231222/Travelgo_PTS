@@ -4,59 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TravelGo</title>
+    <title>Product</title>
 </head>
 
 <body>
-    <!-- mengimport font dari google -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
     <link rel="stylesheet" href="style.css">
-    <!-- membuat navbar -->
     <nav class="navbar" id="navbar">
         <a href="" class="logo">TravelGo</a>
         <div class="nav-links">
-            <nav class="navbars">
-                <!-- your navbar content here -->
-                <a href="">Home</a>
-                <a href="/aboutUs/index.html">About Us</a>
-                <a href="/blogAndNews/index.html">Blog & News</a>
-                <a href="/products/index.html">Product</a>
-                <a href="">Join Us</a>
-            </nav>
+            <a href="/landingPage/index.html">Home</a>
+            <a href="/aboutUs/index.html">About Us</a>
+            <a href="/blogAndNews/index.html">Blog & News</a>
+            <a href="">Product</a>
+            <a href="">Join Us</a>
         </div>
     </nav>
-    <!-- memberi background untuk page -->
-    <div class="background-orang">
-        <img src="/IMG/travelgo.png" alt="" width="1920rem">
-    </div>
-    <!-- memberi section warna hijau -->
     <section class="section-hijau">
+        <img src="/IMG/driverhp.png" alt="driver muncul dari hp" class="gambar-section">
+        <h1 class="judul-section">Our Products</h1>
     </section>
-    <!-- memberi secion putih -->
-    <section class="section-putih">
-        <h1>BINGUNG MAU KELUAR PAKE APA? <br>JALANIN AJA PAKE <span style="color: #30C641;">TRAVELGO </span>BRUMM..
-            BRUMMM..</h1>
-        <div class="border">
+    <div class="page-menu">
+        <div class="menu">
+            <a href="">Motor</a>
         </div>
-        <div class="kotak1">
-            <img src="/IMG/box1.png" alt="">
+        <div class="menu">
+            <a href="">Mobil</a>
         </div>
-        <div class="kotak2">
-            <img src="/IMG/box2.png" alt="">
+        <div class="menu">
+            <a href="">Pengiriman</a>
         </div>
-        <div class="kotak3">
-            <img src="/IMG/box3.png" alt="">
+        <div class="menu">
+            <a href="">Kereta &<br>Pesawat</a>
         </div>
-        </div>
-    </section>
-    <section>
-
-    </section>
-    </section>
-
+    </div>
     <footer>
         <section class="footer-section">
             <h1>Travelgo</h1>
@@ -78,17 +62,6 @@
         </section>
     </footer>
 
-    <script>
-        const navbar = document.getElementById('navbar');
-
-        window.onscroll = () => {
-            if (window.pageYOffset > 600){
-                navbar.classList.add('scrolled')
-            } else {
-                navbar.classList.remove('scrolled')
-            }
-        }
-    </script>
 </body>
 
 </html>
