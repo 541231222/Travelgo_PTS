@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image: url(/IMG/Rectangle\ 5.png);
+  background-repeat: no-repeat;
+  background-size: 45rem;
+}
+
+h1 {
+  font-family: "Passion One";
+  color: white;
+  margin-left: 30px;
+  margin-top: -350px;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "Lalezar";
+  margin-left: 55rem;
+  margin-top: -40rem;
+  font-size: 48px;
+}
+
+.google {
+  margin-left: 55rem;
+  margin-top: 20px;
+}
+
+.apple {
+  margin-left: 1rem;
+}
+
+.or {
+  position: absolute;
+  margin-top: 6rem;
+  margin-left: -474px;
+}
+
+#email {
+  background-image: url("/IMG/mail.png"); /* replace with your image URL */
+  background-size: 40px 40px; /* adjust the size of the image */
+  background-position: 20px 20px; /* adjust the position of the image */
+  background-repeat: no-repeat;
+  padding-left: 80px; /* add some padding to make room for the image */
+  margin-left: 55rem;
+  margin-top: 3rem;
+}
+
+#password {
+  background-image: url("/IMG/lock.png"); /* replace with your image URL */
+  background-size: 40px 40px; /* adjust the size of the image */
+  background-position: 20px 20px; /* adjust the position of the image */
+  background-repeat: no-repeat;
+  padding-left: 80px; /* add some padding to make room for the image */
+  margin-left: 55rem;
+  margin-top: 2.3rem;
+}
+
+.input-password input::placeholder {
+  font-family: "Poppins"; /* change the font family */
+  font-size: 14px; /* change the font size */
+  color: #ccc; /* change the font color */
+}
+
+.input-login input::placeholder {
+  font-family: "Poppins"; /* change the font family */
+  font-size: 14px; /* change the font size */
+  color: #ccc; /* change the font color */
+}
+
+button {
+    font-family: "Poppins";
+    font-style: bold;
+    position: absolute;
+    margin-left: 55rem;
+    margin-top: 20px
+}
+
+.custom-button {
+    font-family: "Poppins";
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+button[type="submit"] {
+    background-color: rgba(0, 186, 28, 1);
+    color: #ffffff; /* Change the text color to white */
+    border: none;
+    padding: 30px 13.15rem;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.input-password label {
+  position: absolute;
+  margin-left: 55rem;
+  margin-top: 8px;
+  font-family: "Poppins";
+}
+
+.input-login label {
+  position: absolute;
+  margin-left: 55rem;
+  margin-top: 38px;
+  font-family: "Poppins";
+}
+
+.large-input {
+  width: 395px;
+  height: 77px;
+  border: 1px solid rgba(0, 186, 28, 1);
+  border-radius: 10px;
+}
+
+.large-input :focus {
+  outline: none;
+  box-shadow: none;
+  border-color: white;
+}
+
+.garis {
+  position: absolute;
+  margin-left: 74rem;
+  margin-top: 500px;
+}
+
+.eye-icon {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 65px;
+  cursor: pointer;
+}
+
+.eye-icon img {
+  width: 18px;
+  height: 18px;
+}
+
+#eye-image {
+  transition: 0.3s; /* add a transition effect */
+}
+
+.back-button {
+  position: absolute;
+  font-size: 30px;
+  text-shadow: 100rem;
+  background-color: #ff000000;
+  border-color: #ffffff00;
+  margin-left: 115rem;
+  font-family: "Poppins";
+  color: rgba(0, 186, 28, 1);
+}
+
+.back-button:hover  {
+  color: #000000;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="/Login/script.js"></script>
+</head>
+<body>
+    <button class="back-button" onclick="history.back()">X</button>
+    <img src="/IMG/CropRemoveBG (1) 1.png" alt="" class="mobil">
+    <h1>Pakai Travelgo <br>perjalanan jadi <br>mudah dan nyaman.</h1>
+    <h2>Get's started!</h2>
+    <a href=""><img src="/IMG/google.png" alt="" class="google"></a>
+    <a href=""><img src="/IMG/apple.png" alt="" class="apple"></a>
+    <img src="/IMG/or.png" alt="" class="or">
+    <form id="loginForm">
+    <div class="input-login">
+        <label for="email">Email Address</label><br>
+        <input type="email" name="email" id="email" placeholder="Input your email" class="large-input" >
+    </div><br>
+    <div class="input-password">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" class="large-input" placeholder="Input your password">
+        <span class="eye-icon" onclick="togglePasswordVisibility()">
+            <img src="/IMG/jam_eye-close.png" id="eye-image" alt="Eye Icon">
+          </span>
+    </div>
+      </div>
+    <button type="submit" class="custom-button">Register</button>
+    </form>
+</body>
+</html>

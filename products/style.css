@@ -94,12 +94,50 @@ body {
     margin-top: 80px;
 }
 
+.page-menu {
+    gap: 50px;
+}
+
+.page-menu .menu {
+    background-color: #30C641;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-left: 135px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+}
+
+.page-menu a {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    align-items: center;
+    color: #000;
+}
+
+.page-border {
+    border-top: 4px solid #ffff;
+    position: relative;
+    width: 102.3rem;
+    align-items: center;
+    margin-left: 133px;
+}
 .footer-section {
     background-color: #373737;
     padding: 100px;
     bottom: 0px;
     width: 100%;
 }
+
+.img-page {
+    flex-direction: column;
+    gap: -10px;
+}
+
 
 .footer-section h1 {
     font-family: "Lalezar";
@@ -138,6 +176,20 @@ body {
     margin-top: -175px;
 }
 
+.page-menu a:hover {
+    position: absolute;
+    background-color: #000;
+    margin-top: -10px;
+    margin-left: -135px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+
+}
+
 .imgfooter h2 {
     font-family: "Poppins";
     position: absolute;
@@ -158,4 +210,12 @@ body {
     position: absolute;
     right: 235px;
     margin-top: -70px;
+}
+
+.page-menu a:hover {
+    color: #D9D9D9;
+}
+
+.img-page img:hover {
+    transform: scale(1.05);
 }
