@@ -121,6 +121,10 @@ body {
     padding-top: 130px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .border-page {
     border-top: 8px solid #000000;
     position: relative;
