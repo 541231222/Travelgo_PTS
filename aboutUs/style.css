@@ -64,7 +64,25 @@ body {
     font-family: "Lalezar", system-ui;
     font-weight: 400;
     font-style: normal;
+    animation: move7 3s infinite;
 }
+
+@keyframes move7 {
+    0% {
+      transform: translateX(-8px);
+      transform: translateY(-12%);
+    }
+    25% {
+        transform: translateX(6px);
+    }
+    50% {
+      transform: translateX(-8px);
+    }
+    100% {
+      transform: translateX(-8px);
+      transform: translateY(-12%);
+    }
+  }
 
 .navbar .nav-links {
     padding-right: 70px;
@@ -164,7 +182,19 @@ body {
     bottom: -125rem;
     height: 37rem;
     margin-left: 50px;
+    animation: move 2s infinite;
 }
+@keyframes move {
+    0% {
+      transform: translateY(-2%);
+    }
+    50% {
+      transform: translateX(-4px);
+    }
+    100% {
+      transform: translateY(-2%);
+    }
+  }
 
 .section-pc  h1 {
     position: absolute;

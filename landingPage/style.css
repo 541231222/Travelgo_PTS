@@ -5,7 +5,28 @@ body {
     height: 100vh; /* Tinggi viewport */
     overflow-y: scroll;
     overflow-x: hidden;
+    font-family: "Lalezar";
+    scrollbar-color: rgb(255, 0, 0);
 }
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+    height: 10px; /* Set the height of the scrollbar */
+    background-color: #ccc; /* Set the background color of the  scrollbar */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* Set the background color of the scrollbar thumb */
+    border-radius: 10px; /* Add a rounded corner to the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Set the background color of the scrollbar track */
+    border-radius: 10px;
+}
+.judul-gambar h1 {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.753);
+  }
 .navbar {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.1); /* Faded white color */
@@ -18,6 +39,7 @@ body {
     width: 100%; /* Make the navbar full-width */
     overflow: hidden;
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for background-color and box-shadow */
+    z-index: 2;
 }
 
 .navbar.scrolled {
@@ -43,7 +65,25 @@ body {
     font-weight: 400;
     font-style: normal;
     padding-top: 10px;
+    animation: move7 3s infinite;
 }
+
+@keyframes move7 {
+    0% {
+      transform: translateX(-8px);
+      transform: translateY(-12%);
+    }
+    25% {
+        transform: translateX(6px);
+    }
+    50% {
+      transform: translateX(-8px);
+    }
+    100% {
+      transform: translateX(-8px);
+      transform: translateY(-12%);
+    }
+  }
 
 .navbar a:hover {
     color: #666; /* Change the link color on hover */
@@ -89,29 +129,16 @@ body {
     font-style: normal;
 }
 
-.navbwh img {
-    align-items: center;
-    margin-top: 350px;
-    margin-left: 530px;
-
-}
-
-.map img {
-    margin-left: 100px;
-    margin-top: 100px;
-}
-
-.kata {
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    margin: 0 20px;
-    transition: color 0.2s ease; /* Add a smooth transition effect */
-    font-family: "Lalezar", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 1000px;
-    margin-top: -250px;
+.judul-gambar {
+    background-image: url(/IMG/travelgo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: right;
+    color: #ffffff;
 }
 
 .section-hijau {
@@ -218,14 +245,32 @@ body {
     margin-top: -70px;
 }
 
+.kotak1 img {
+    transition: 0.3s ease-in-out; /* shorter duration for non-hover state */
+}
+
+.kotak2 img {
+    transition: 0.3s ease-in-out; /* shorter duration for non-hover state */
+}
+
+.kotak3 img {
+    transition: 0.3s ease-in-out; /* shorter duration for non-hover state */
+}
+
 .kotak1 img:hover {
-    transform: scale(1.05);
+    transform:scale(1.05);
+    z-index: 0;
+    transition: 0.3s ease-in-out;
 }
 
 .kotak2 img:hover {
     transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    z-index: 0;
 }
 
 .kotak3 img:hover {
     transform: scale(1.05);
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
 }

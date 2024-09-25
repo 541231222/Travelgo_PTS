@@ -73,7 +73,25 @@ body {
     font-family: "Lalezar", system-ui;
     font-weight: 400;
     font-style: normal;
+    animation: move7 3s infinite;
 }
+
+@keyframes move7 {
+    0% {
+      transform: translateX(-8px);
+      transform: translateY(-12%);
+    }
+    25% {
+        transform: translateX(6px);
+    }
+    50% {
+      transform: translateX(-8px);
+    }
+    100% {
+      transform: translateX(-8px);
+      transform: translateY(-12%);
+    }
+  }
 
 .navbar .nav-links {
     padding-right: 70px;
