@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
 
       if(username === correctUsername && password === correctPassword){
         alert("login berhasil");
-        window.location.href =  '/landingPage/index.html';
+        window.location.href =  '/index.html';
       }else{
         alert("salah bro");
       }
